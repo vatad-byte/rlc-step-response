@@ -44,3 +44,23 @@ Thus, peaks map periodically at discrete time bounds:
 
 $$t = \frac{k\pi}{\omega_d} \quad \text{for } k = 0, 1, 2, \dots$$
 
+## Experimental Results & Hardware Verification
+
+### 1. Transient Peak Data Table
+The table below contrasts the measured peak voltages captured on the digital storage oscilloscope against the derived theoretical values across the variable damping factors ($\zeta$):
+
+| Damping ($\zeta$) | 1st Max (Measured) | 1st Max (Theory) | 1st Min (Measured) | 1st Min (Theory) | 2nd Max (Measured) | 2nd Max (Theory) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **0.1** | 2000 mV | 1.729 V | 400 mV | 0.468 V | 1275 mV | 1.342 V |
+| **0.2** | 1750 mV | 1.527 V | 700 mV | 0.722 V | 1100 mV | 1.144 V |
+| **0.4** | 1350 mV | 1.254 V | 920 mV | 0.935 V | 1000 mV | 1.021 V |
+| **0.6** | 1100 mV | 1.045 V | 980 mV | 0.991 V | 990 mV | 1.001 V |
+| **0.8** | 1000 mV | 1.015 V | 985 mV | 0.999 V | 992 mV | 1.000 V |
+
+### 2. Oscilloscope Waveform Capture
+Below is the transient step response captured on the Rohde & Schwarz RTB2004 during circuit validation:
+
+![Oscilloscope Waveform](<img width="1030" height="771" alt="Oscilloscope Results" src="https://github.com/user-attachments/assets/18a063dd-792f-453f-80db-365f1c9e590f" />
+)
+
+
