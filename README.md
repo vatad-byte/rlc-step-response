@@ -60,7 +60,7 @@ The table below contrasts the measured peak voltages captured on the digital sto
 ### 2. Oscilloscope Waveform Capture
 Below is the transient step response captured on the Rohde & Schwarz RTB2004 during circuit validation:
 
-![Oscilloscope Waveform](<img width="1030" height="771" alt="Oscilloscope Results" src="https://github.com/user-attachments/assets/18a063dd-792f-453f-80db-365f1c9e590f" />
-)
+![Oscilloscope Waveform](Oscilloscope%20Results.png)
+
 
 
